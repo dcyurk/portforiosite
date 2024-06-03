@@ -82,13 +82,13 @@ function enableScroll() {
     document.body.style.overflow = '';
 }
 
-// 一定時間後または条件を満たした後にローディングオーバーレイを非表示にするJavaScript
+// ページが完全に読み込まれる前にローディングアニメーションを表示する
 document.addEventListener("DOMContentLoaded", function () {
     disableScroll(); // ページ読み込み時にスクロールを無効にする
+});
 
-    // 3秒後にローディングアニメーションを非表示にする
-    setTimeout(function () {
-        document.getElementById('loading-overlay').style.display = 'none';
-        enableScroll(); // ローディングアニメーションを非表示にした後にスクロールを有効にする
-    }, 3000);
+// ページが完全に読み込まれた後にローディングアニメーションを非表示にする
+window.addEventListener("load", function () {
+    document.getElementById('loading-overlay').style.display = 'none';
+    enableScroll(); // ローディングアニメーションを非表示にした後にスクロールを有効にする
 });
