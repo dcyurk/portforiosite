@@ -709,7 +709,7 @@ a.btn--shadow {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #6D648D;
     z-index: 1000;
     /* 他のコンテンツの上に表示するためのz-index */
 }
