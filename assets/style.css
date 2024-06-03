@@ -486,6 +486,7 @@ h2.vertical-heading {
 .container {
     display: flex;
     justify-content: center;
+    gap: 30px;
 }
 
 /* スターの表示 */
@@ -663,6 +664,25 @@ h2.vertical-heading {
 
 
 /* ボタン */
+a.btn_01 {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+    margin: auto;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    border: 2px solid #BD302E;
+    color: #BD302E;
+    transition: 0.5s;
+}
+
+a.btn_01:hover {
+    color: #fff;
+    background: #BD302E;
+}
+
+
 a.btn--orange {
     color: #fff;
     background-color: #BD302E;
