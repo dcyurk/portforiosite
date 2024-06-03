@@ -69,3 +69,26 @@ window.addEventListener('scroll', function () {
 });
 
 // ここまでトップへ戻るボタン
+
+
+// ローディングアニメーション
+// スクロールを無効にする関数
+function disableScroll() {
+    document.body.style.overflow = 'hidden';
+}
+
+// スクロールを有効にする関数
+function enableScroll() {
+    document.body.style.overflow = '';
+}
+
+// 一定時間後または条件を満たした後にローディングオーバーレイを非表示にするJavaScript
+document.addEventListener("DOMContentLoaded", function () {
+    disableScroll(); // ページ読み込み時にスクロールを無効にする
+
+    // 3秒後にローディングアニメーションを非表示にする
+    setTimeout(function () {
+        document.getElementById('loading-overlay').style.display = 'none';
+        enableScroll(); // ローディングアニメーションを非表示にした後にスクロールを有効にする
+    }, 3000);
+});

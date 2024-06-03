@@ -62,7 +62,7 @@
 <body>
     <header id="header">
         <a href="index.html">
-            <h1 id="rogo" class="left"><img src="img/rogo.png" alt="千と書かれた落款印"></h1>
+            <h1 id="logo" class="left"><img src="img/logo.png" alt="千と書かれた落款印"></h1>
             <p id="title" class="yamamotoanFont center">千葉結梨花の制作実績サイト</p>
         </a>
         <!-- ハンバーガーメニュー -->
@@ -97,6 +97,16 @@
         <!-- ここまでハンバーガーメニュー -->
     </header>
     <main>
+        <!-- ローディングアニメーション -->
+        <div class="loading-overlay" id="loading-overlay">
+            <div class="loading-container">
+                <img src="img/logo.png" alt="Loading..." class="logo">
+                <div class="loading-text">Loading<span class="dot">.</span><span class="dot">.</span><span
+                        class="dot">.</span></div>
+            </div>
+        </div>
+        <!-- ここまでローディングアニメーション -->
+
         <!--ファーストビュー -->
         <div id="key"></div>
         <h2 class="yuuMinFont lineHeight" id="catchCopy">作る喜びと人々への思いやりを胸に、<br>日々成長するエンジニア</h2>
@@ -207,7 +217,7 @@
     </main>
     <footer>
         <div id="footerBox">
-            <div id="rogoFooter"><img src="img/rogo.png" alt="千と書かれた落款印"></div>
+            <div id="logoFooter"><img src="img/logo.png" alt="千と書かれた落款印"></div>
             <div id="copy"><small>&copy;2023 千葉結梨花の制作実績サイト</small></div>
         </div>
         <!-- topに戻るボタン -->
