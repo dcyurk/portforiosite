@@ -794,6 +794,21 @@ iframe {
     /* スマホ用のスタイルをここに追加 */
 
 
+    /* ハンバーガーメニューが開いたときだけ白いロゴタイトル */
+    #title {
+        color: black;
+        /* デフォルトの色 */
+        transition: color 0.3s;
+        /* 色が変わるアニメーション */
+    }
+
+    #menu-btn-check:checked~.menu-content~#title {
+        color: white;
+        /* メニューが開いたときの色 */
+    }
+
+    /* ハンバーガーメニューが開いたときだけ白いロゴタイトル */
+
 
     .width300px-sp {
         width: 300px;

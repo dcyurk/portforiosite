@@ -92,3 +92,16 @@ window.addEventListener("load", function () {
     document.getElementById('loading-overlay').style.display = 'none';
     enableScroll(); // ローディングアニメーションを非表示にした後にスクロールを有効にする
 });
+
+
+
+
+// チェックボックスの状態を監視し、タイトルの色を変更するスクリプト
+document.getElementById('menu-btn-check').addEventListener('change', function () {
+    var title = document.getElementById('title');
+    if (this.checked) {
+        title.style.color = 'white';
+    } else {
+        title.style.color = 'black';
+    }
+});
