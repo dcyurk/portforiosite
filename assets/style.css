@@ -570,11 +570,6 @@ iframe {
         transform: rotate(-45deg);
     }
 
-    /* メニューが開かれたときに背景を固定 */
-    body.menu-open {
-        overflow: hidden;
-    }
-
     /* ここまでハンバーガーメニュー */
 
 
