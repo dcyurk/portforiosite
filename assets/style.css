@@ -254,6 +254,10 @@ iframe {
 
 /* PC版のスタイル */
 @media screen and (min-width: 1025px) {
+    #spo-logo-bef-aft img {
+        width: 400px;
+    }
+
     .height600px-pc {
         height: 600px;
     }
@@ -1381,6 +1385,11 @@ iframe {
 
 /* タブレット用のスタイル */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
+    #spo-logo-bef-aft img {
+        width: 400px;
+    }
+
+
     .height600px-pc {
         height: 600px;
     }
