@@ -1064,7 +1064,7 @@ iframe {
         margin: 0 auto;
     }
 
-    .car-marginB-sp {
+    .marginB30px-sp {
         margin-bottom: 30px;
     }
 
@@ -1194,17 +1194,17 @@ iframe {
     /* ここまでトップへ戻るボタン */
 
     /* サイト紹介ページ */
-    .imgContainer {
+    /* .imgContainer {
         display: flex;
         gap: 50px;
         justify-content: center;
-    }
+    } */
 
-    .imgContainer img {
+    /* .imgContainer img {
         width: 400px;
         object-fit: cover;
         border-radius: 10px;
-    }
+    } */
 
     .zabuton {
         background-color: #fff;
@@ -1262,15 +1262,30 @@ iframe {
 
     /* ボタン */
     #bbq-logo-bef-aft img {
-        width: 600px;
-        border-radius: 10px;
+        width: 300px;
+    }
+
+    #spo-logo-bef-aft img {
+        width: 300px;
     }
 
     #calenderimg img {
-        width: 700px;
+        width: 300px;
     }
 
     /* ここまでサイト紹介ページ */
+    /* img */
+    .sp-img {
+        margin: 0 auto;
+    }
+
+    .sp-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* img */
+
 
 }
 
@@ -1767,8 +1782,13 @@ iframe {
     }
 
     /* ボタン */
+
+    #spo-logo-bef-aft img {
+        width: 300px;
+    }
+
     #bbq-logo-bef-aft img {
-        width: 600px;
+        width: 300px;
         border-radius: 10px;
     }
 
