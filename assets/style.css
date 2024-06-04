@@ -1389,7 +1389,7 @@ iframe {
 
     /* bizen-setumei */
     .bizen-setumei {
-        width: 900px;
+        width: 400px;
     }
 
     /* bizen-setumei */
@@ -1469,7 +1469,7 @@ iframe {
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
-        font-size: 36px;
+        font-size: 26px;
         text-align: center;
     }
 
