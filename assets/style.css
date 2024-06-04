@@ -518,7 +518,7 @@ iframe {
     }
 
     #menu-btn-check:checked~.menu-content {
-        left: 0%;
+        left: 70%;
     }
 
     #menu-btn-check:checked~.menu-btn span {
@@ -1026,7 +1026,7 @@ iframe {
     }
 
     #menu-btn-check:checked~.menu-content {
-        left: 70%;
+        left: 0%;
     }
 
     #menu-btn-check:checked~.menu-btn span {
