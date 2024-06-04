@@ -1,22 +1,4 @@
 'use strict';
-// //グローバルナビゲーション
-// let prevScrollPos = window.pageYOffset;
-// window.addEventListener('scroll', function () {
-//     let currentScrollPos = window.pageYOffset;
-//     let header = document.querySelector('#header');
-
-//     if (prevScrollPos > currentScrollPos) {
-//         // スクロールが上方向（上に戻っている）の場合、ヘッダーを表示
-//         header.style.transform = 'translateY(0)';
-//     } else {
-//         // スクロールが下方向（下に進んでいる）の場合、ヘッダーを非表示
-//         header.style.transform = 'translateY(-100%)';
-//     }
-
-//     prevScrollPos = currentScrollPos;
-// });
-// //グローバルナビゲーション
-
 
 // 制作実績カルーセル
 const carousels = document.querySelectorAll('.carousel');
@@ -103,5 +85,15 @@ document.getElementById('menu-btn-check').addEventListener('change', function ()
         title.style.color = 'white';
     } else {
         title.style.color = 'black';
+    }
+});
+
+
+// メニューの開閉時に背景の固定を切り替えるスクリプト
+document.getElementById('menu-btn-check').addEventListener('change', function () {
+    if (this.checked) {
+        document.body.classList.add('menu-open');
+    } else {
+        document.body.classList.remove('menu-open');
     }
 });

@@ -544,7 +544,7 @@ iframe {
     }
 
     #menu-btn-check:checked~.menu-content {
-        left: 70%;
+        left: 0%;
     }
 
     #menu-btn-check:checked~.menu-btn span {
@@ -561,7 +561,13 @@ iframe {
         transform: rotate(-45deg);
     }
 
+    /* メニューが開かれたときに背景を固定 */
+    body.menu-open {
+        overflow: hidden;
+    }
+
     /* ここまでハンバーガーメニュー */
+
 
     /* スキル*/
     .container {
@@ -1115,7 +1121,13 @@ iframe {
         transform: rotate(-45deg);
     }
 
+    /* メニューが開かれたときに背景を固定 */
+    body.menu-open {
+        overflow: hidden;
+    }
+
     /* ここまでハンバーガーメニュー */
+
 
     /* スキル*/
     /* .container {
@@ -1640,7 +1652,13 @@ iframe {
         transform: rotate(-45deg);
     }
 
+    /* メニューが開かれたときに背景を固定 */
+    body.menu-open {
+        overflow: hidden;
+    }
+
     /* ここまでハンバーガーメニュー */
+
 
     /* スキル*/
     .container {
