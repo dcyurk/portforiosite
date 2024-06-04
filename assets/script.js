@@ -78,15 +78,19 @@ window.addEventListener("load", function () {
 
 
 
+
 // チェックボックスの状態を監視し、タイトルの色を変更するスクリプト
 document.getElementById('menu-btn-check').addEventListener('change', function () {
     let title = document.getElementById('title');
-    if (this.checked) {
+    let mediaQuery = window.matchMedia('screen and (min-width: 1025px)');
+
+    if (this.checked && !mediaQuery.matches) {
         title.style.color = 'white';
     } else {
         title.style.color = 'black';
     }
 });
+
 
 
 // メニューの開閉時に背景の固定を切り替えるスクリプト
