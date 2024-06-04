@@ -98,7 +98,7 @@ window.addEventListener("load", function () {
 
 // チェックボックスの状態を監視し、タイトルの色を変更するスクリプト
 document.getElementById('menu-btn-check').addEventListener('change', function () {
-    var title = document.getElementById('title');
+    let title = document.getElementById('title');
     if (this.checked) {
         title.style.color = 'white';
     } else {
