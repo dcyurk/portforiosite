@@ -7,6 +7,11 @@ html {
     scroll-behavior: smooth;
 }
 
+.ol {
+    list-style-type: decimal;
+    line-height: 40px;
+}
+
 body {
     background-color: #f3e5d3;
 }
