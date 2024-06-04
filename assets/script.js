@@ -112,3 +112,39 @@ document.querySelector('.pagetop').addEventListener('click', function (e) {
         behavior: 'smooth'
     });
 });
+
+
+// キャッチコピーをふわっと表示
+// キャッチコピーの要素を取得
+const catchCopy = document.getElementById('catchCopy');
+
+// キャッチコピーの各行を分割して配列に格納
+const lines = catchCopy.innerHTML.split('<br>');
+
+// キャッチコピーの要素を一度空にする
+catchCopy.innerHTML = '';
+
+// ページ読み込み時にアニメーションを実行
+window.addEventListener('load', () => {
+    // 各行に対してアニメーションを設定
+    lines.forEach((line, index) => {
+        const div = document.createElement('div');
+        div.textContent = line;
+        catchCopy.appendChild(div);
+
+        // フェードインとスケールアップのアニメーションを設定
+        gsap.fromTo(div, {
+            opacity: 0,
+            scale: 0.5
+        }, {
+            opacity: 1,
+            scale: 1,
+            delay: index * 0.3,
+            duration: 1,
+            ease: 'Power3.easeInOut'
+        });
+    });
+
+    // 最初にキャッチコピーを表示する
+    catchCopy.style.display = 'block';
+});
