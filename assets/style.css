@@ -251,6 +251,19 @@ iframe {
 /* PC版のスタイル */
 @media screen and (min-width: 1025px) {
 
+
+    /* muji-img */
+    iframe {
+        width: 500px;
+        height: 300px;
+    }
+
+    .muji-img {
+        width: 400px;
+    }
+
+    /* muji-img */
+
     /* flex */
 
     .container {
@@ -767,6 +780,19 @@ iframe {
 @media screen and (max-width: 600px) {
     /* スマホ用のスタイルをここに追加 */
 
+    iframe {
+        width: 300px;
+        height: 200px;
+    }
+
+
+
+    /* saishu-img */
+    .muji-img {
+        width: 300px;
+    }
+
+    /* saishu-img */
 
     /* ヘッダー */
     #header {
