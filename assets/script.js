@@ -97,3 +97,14 @@ document.getElementById('menu-btn-check').addEventListener('change', function ()
         document.body.classList.remove('menu-open');
     }
 });
+
+
+
+// ページトップに戻るボタンのスムーズスクロール
+document.querySelector('.pagetop').addEventListener('click', function (e) {
+    e.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});

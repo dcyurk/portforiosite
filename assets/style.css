@@ -3,6 +3,10 @@
 
 /* 共通 */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #f3e5d3;
 }
