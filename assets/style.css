@@ -250,6 +250,10 @@ iframe {
 
 /* PC版のスタイル */
 @media screen and (min-width: 1025px) {
+    .height600px-pc {
+        height: 600px;
+    }
+
     .width300px-sp {
         width: 400px;
     }
