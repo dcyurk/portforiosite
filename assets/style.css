@@ -3,6 +3,18 @@
 
 /* 共通 */
 
+.center {
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.margin0auto {
+    margin: 0 auto;
+}
+
 html {
     scroll-behavior: smooth;
 }
