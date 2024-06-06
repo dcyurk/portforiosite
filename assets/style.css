@@ -48,7 +48,8 @@ body {
 }
 
 img,
-iframe {
+iframe,
+.btn_01 {
     border-radius: 10px;
 }
 
