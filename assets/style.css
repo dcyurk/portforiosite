@@ -782,7 +782,8 @@ iframe,
     }
 
     a.btn_01:hover {
-        color: #fff;
+        border: 2px solid #BD302E;
+        color: #BD302E;
         background: #f0f0f0;
     }
 
