@@ -775,6 +775,7 @@ iframe,
         margin: auto;
         padding: 1rem 4rem;
         font-weight: bold;
+        border: 2px solid #BD302E;
         color: #f0f0f0;
         transition: 0.5s;
         background-color: #BD302E;
