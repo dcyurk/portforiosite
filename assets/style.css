@@ -775,15 +775,15 @@ iframe,
         margin: auto;
         padding: 1rem 4rem;
         font-weight: bold;
-        border: 2px solid #BD302E;
-        color: #BD302E;
+        border: 2px solid #f0f0f0;
+        color: #f0f0f0;
         transition: 0.5s;
-        background-color: #f0f0f0;
+        background-color: #BD302E;
     }
 
     a.btn_01:hover {
         color: #fff;
-        background: #BD302E;
+        background: #f0f0f0;
     }
 
     a.btn--orange {
