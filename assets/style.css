@@ -779,6 +779,7 @@ iframe,
         color: #f0f0f0;
         transition: 0.5s;
         background-color: #BD302E;
+        height: 70px;
     }
 
     a.btn_01:hover {
@@ -1327,6 +1328,7 @@ iframe,
         color: #f0f0f0;
         transition: 0.5s;
         background-color: #BD302E;
+        height: 70px;
     }
 
     a.btn_01:hover {
@@ -1896,6 +1898,7 @@ iframe,
         border: 2px solid #BD302E;
         color: #f0f0f0;
         background-color: #BD302E;
+        height: 70px;
 
     }
 
